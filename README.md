@@ -21,12 +21,8 @@
 <h4 align="justify">🛠️ SQLite • DBeaver</h4>
 <h4 align="justify">🛠️ Requests • CSV • re (Expressões Regulares)</h4>
 
-<h2 align="justify">🚀 Como Executar:</h2>
-<p align="justify">
-  Para executar o projeto, é necessário ter o Python 3 instalado. As instruções detalhadas de clonagem do repositório e instalação de dependências estão disponíveis no arquivo <a href="Documentacao.md">DOCUMENTACAO.md</a>.
-</p>
 
-<h2 align="justify">💡 Conclusão e Próximos Passos:</h2>
+<h2 align="justify">💡 Conclusão: </h2>
 <p align="justify">
   Desenvolver este projeto foi uma jornada de aprendizado e iniciativa pessoal. Fui além do conteúdo abordado no curso, pesquisando novas bibliotecas, implementando funcionalidades adicionais e aprimorando a experiência do usuário. O resultado é uma aplicação funcional e robusta que representa um passo importante na minha trajetória como desenvolvedor, demonstrando a capacidade de criar uma solução de software do início ao fim.
 </p>
