@@ -23,7 +23,7 @@
 
 <h2 align="justify">🚀 Como Executar:</h2>
 <p align="justify">
-  Para executar o projeto, é necessário ter o Python 3 instalado. As instruções detalhadas de clonagem do repositório e instalação de dependências estão disponíveis no arquivo <a href="DOCUMENTACAO.md">DOCUMENTACAO.md</a>.
+  Para executar o projeto, é necessário ter o Python 3 instalado. As instruções detalhadas de clonagem do repositório e instalação de dependências estão disponíveis no arquivo <a href="Documentacao.md">DOCUMENTACAO.md</a>.
 </p>
 
 <h2 align="justify">💡 Conclusão e Próximos Passos:</h2>
