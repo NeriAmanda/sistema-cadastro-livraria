@@ -183,12 +183,25 @@ Máscara de Telefone: A função formatar_telefone_mask aplica dinamicamente o f
 Funcionalidade de Zoom: Usando os atalhos Ctrl + / Ctrl - ou a roda do mouse com Ctrl, o usuário pode aumentar e diminuir o tamanho da fonte de toda a aplicação, melhorando a acessibilidade.
 
 ---
+## 📚 Documentação Oficial
+
+Para aprofundar os estudos nas tecnologias utilizadas neste projeto, consulte as documentações oficiais:
+
+* [**Python**](https://docs.python.org/3/): A documentação completa da linguagem Python.
+* [**Tkinter**](https://docs.python.org/3/library/tkinter.html): Documentação oficial da biblioteca para interfaces gráficas.
+* [**SQLite**](https://www.sqlite.org/docs.html): Documentação oficial do banco de dados SQLite.
+* [**Requests**](https://requests.readthedocs.io/en/latest/): Guia do usuário da biblioteca `requests`.
+* [**Módulo `csv`**](https://docs.python.org/3/library/csv.html): Documentação do módulo Python para manipulação de arquivos CSV.
+* [**Módulo `re`**](https://docs.python.org/3/library/re.html): Guia do módulo de Expressões Regulares do Python.
+
+---
 ### 📂 Estrutura dos Arquivos
 
 <pre>
 📁 sistema-cadastro-livraria/
 ├── 📄 clientes.py             # Arquivo principal com todo o código Python da aplicação
 ├── 📄 clientes_livraria.db    # Banco de dados SQLite. É criado e atualizado pelo programa
-├── 📄 README.md                # Resumo do projeto (você pode criar este)
-└── 📄 Documentacao.md          # Este arquivo que você está lendo
+├── 📄 README.md               # Resumo do projeto (você pode criar este)
+├── 📄 imagens_execucao        # Imagens do app em execução e do banco de dados. 
+└── 📄 Documentacao.md         # Este arquivo que você está lendo
 </pre>
