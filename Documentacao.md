@@ -90,29 +90,8 @@ O método `__init__` é o ponto de partida. Quando a aplicação é iniciada, el
 6.  **Carregamento Inicial**: Executa `self.carregar_clientes()` para que a lista de clientes já apareça na tela assim que o programa abre.
 7.  **Bindings de Eventos**: Configura atalhos de teclado, como `Enter` para pular de campo e `Ctrl +` para o zoom.
 
-```python
-# Trecho do __init__
-class Aplicacao:
-    def __init__(self):
-        # 1. Conecta ao DB
-        self.conexao = conectar_banco()
-        self.cursor = self.conexao.cursor()
-
-        # 2. Busca dados da API
-        self.dados_localizacao = buscar_estados_e_cidades()
-
-        # 3. Cria a janela
-        self.janela = Tk()
-        self.janela.title("Cadastro de Clientes e Vendas: Livraria")
-        
-        # 4, 5, 6... Constrói o resto da aplicação
-        self.frames()
-        self.widgets_frame1()
-        self.widgets_frame2()
-        self.carregar_clientes()
-        # ...
-
-🎨 Construindo a Interface com Tkinter
+---
+### 🎨 Construindo a Interface com Tkinter
 
 A interface é dividida em dois Frames principais, que funcionam como caixas para organizar os componentes. Dentro deles, usamos vários Widgets.
 
@@ -176,7 +155,8 @@ def cadastrar_cliente(self):
         # Trata o erro de e-mail duplicado
         messagebox.showerror("Erro", f"O e-mail '{email}' já está cadastrado.")
 
-✨ Funções e Eventos Principais
+### ✨ Funções e Eventos Principais
+
 🔹 carregar_cliente_para_edicao(self, event)
 Esta função demonstra o poder dos eventos em Tkinter.
 
@@ -195,20 +175,20 @@ API Externa: Esta função usa a biblioteca requests para fazer uma chamada HTTP
 Tratamento de Erros: O bloco try...except é fundamental aqui. Ele "tenta" fazer a conexão com a internet. Se falhar (por exemplo, se o usuário estiver offline ou a API do IBGE estiver fora do ar), o except captura o erro, exibe uma mensagem amigável e carrega uma lista mínima de cidades, garantindo que o programa não trave.
 
 💡 Pequenos Detalhes, Grande Diferença
+---
 O projeto inclui algumas funcionalidades de experiência do usuário que enriquecem a aplicação:
 
 Máscara de Telefone: A função formatar_telefone_mask aplica dinamicamente o formato (DD) XXXXX-XXXX enquanto o usuário digita, melhorando a usabilidade e a padronização dos dados.
 
 Funcionalidade de Zoom: Usando os atalhos Ctrl + / Ctrl - ou a roda do mouse com Ctrl, o usuário pode aumentar e diminuir o tamanho da fonte de toda a aplicação, melhorando a acessibilidade.
 
-📂 Estrutura dos Arquivos:
+---
+### 📂 Estrutura dos Arquivos
 
-📁 PROJETO_LIVRARIA/
-│
+<pre>
+📁 sistema-cadastro-livraria/
 ├── 📄 clientes.py             # Arquivo principal com todo o código Python da aplicação
-│
 ├── 📄 clientes_livraria.db    # Banco de dados SQLite. É criado e atualizado pelo programa
-│
 ├── 📄 README.md                # Resumo do projeto (você pode criar este)
-│
-└── 📄 DOCUMENTACAO.md          # Este arquivo que você está lendo
+└── 📄 Documentacao.md          # Este arquivo que você está lendo
+</pre>
